@@ -46,6 +46,7 @@ public class WxConsts {
     public static final String TRANSFER_CUSTOMER_SERVICE = "transfer_customer_service";
     public static final String UPDATE_TASKCARD = "update_taskcard";
     public static final String UPDATE_BUTTON = "update_button";
+    public static final String UPDATE_TEMPLATE_CARD = "update_template_card";
   }
 
   /**
@@ -417,7 +418,7 @@ public class WxConsts {
     /**
      * 小程序自定义交易组件支付通知
      */
-    public static final  String OPEN_PRODUCT_ORDER_PAY = "open_product_order_pay";
+    public static final String OPEN_PRODUCT_ORDER_PAY = "open_product_order_pay";
     /**
      * 点击菜单跳转小程序的事件推送
      */
