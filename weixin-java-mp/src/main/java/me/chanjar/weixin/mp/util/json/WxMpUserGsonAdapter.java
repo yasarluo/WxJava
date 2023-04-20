@@ -20,6 +20,7 @@ public class WxMpUserGsonAdapter implements JsonDeserializer<WxMpUser> {
     if (subscribe != null) {
       user.setSubscribe(!new Integer(0).equals(subscribe));
     }
+    user.setSex(GsonHelper.getInteger(o, "sex"));
     user.setHeadImgUrl(GsonHelper.getString(o, "headimgurl"));
     user.setLanguage(GsonHelper.getString(o, "language"));
     user.setNickname(GsonHelper.getString(o, "nickname"));

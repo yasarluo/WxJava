@@ -21,6 +21,7 @@ public class WxMpUser implements Serializable {
 
   private Boolean subscribe;
   private String openId;
+  private Integer sex;
   /**
    * @deprecated 2021年12月27日之后不再输出
    */
